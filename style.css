@@ -1,6 +1,6 @@
 header  {
-    background-color: #1f2937;
     display: flex;
+    background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
 }
@@ -24,21 +24,19 @@ header .HeaderLogo {
 .HeaderLink .UnorderedLink { 
     list-style-type: none;
 }
+
+
 footer {
     display: flex;
- 
+    justify-content: center; 
 }
-
 footer div {
+    display: flex;
     background-color: #1f2937;
-    flex: 1;
-}
-footer div h4 {
-    flex : 1;
     color: #E5E7EB;
-    padding: 10px;
+    padding: 20px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
     justify-content: center;
-    align-items: center;
 }
